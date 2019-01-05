@@ -2,7 +2,7 @@
 
 This is an ESP8266 [NodeMCU V3 LoLin](https://www.aliexpress.com/item/ESP8266-CH340G-CH340-G-NodeMcu-V3-Lua-Wireless-WIFI-Module-Connector-Development-Board-Based-ESP-12E/32800966224.html) break-out PCB I've created for use with Home Assistant. I created this layout to allow for various functions; a garage door opener or retrofitting to a 'dumb' alarm system to integrate existing PIRs into your smart home setup.
 
-The board will accept a +12VDC, 1A input via a 2.1MM centre positive jack. This voltage is regulated down to +5VDC via the onboard AMS1117-5.0 linear regulator (http://www.advanced-monolithic.com/pdf/ds1117.pdf) to feed power to the two +5V relays and the NodeMCU v3 (LoLin).
+The board will accept a +12VDC, 1A input via a 2.1MM centre positive jack. This voltage is regulated down to +5VDC via the onboard [AMS1117-5.0 linear regulator](http://www.advanced-monolithic.com/pdf/ds1117.pdf) to feed power to the two +5V relays and the NodeMCU V3.
 
 The board also accommodates the following sensors:
 
@@ -10,7 +10,7 @@ The board also accommodates the following sensors:
 
 [**HC-SR04**](https://www.aliexpress.com/item/1pcs-HC-SR04-to-world-Ultrasonic-Wave-Detector-Ranging-Module-for-arduino-Distance-Sensor/32786781050.html) - Ultrasonic distance sensor
 
-Aside from the above, a LM339N (http://www.ti.com/lit/ds/symlink/lm339.pdf) is also available onboard and powered by the +12VDC input. This can be used to integrated to your existing alarm system to make use of the PIRs as binary sensors for motion detection. See here for more info (https://www.instructables.com/id/Alarm-PIR-Movement-to-Home-Automation/).
+Aside from the above, a [LM339N](http://www.ti.com/lit/ds/symlink/lm339.pdf) is also available onboard and powered by the +12VDC input. This can be used to integrated to your existing alarm system to make use of the PIRs as binary sensors for motion detection. See [here](https://www.instructables.com/id/Alarm-PIR-Movement-to-Home-Automation/) for more information.
 
 Pin out as follows:
 
