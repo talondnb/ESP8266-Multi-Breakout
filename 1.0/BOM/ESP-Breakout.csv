@@ -1,0 +1,21 @@
+Qty,Value,Device,Package,Parts,Description,Link
+2,M7,DIODE-DO214AC,DO214AC,"D3, D4",DIODE,https://www.aliexpress.com/item/Free-Shipping-One-Lot-100pcs-SMD-1N4007-Rectifier-Diode-1A-1000V-M7-Original/2040310774.html
+2,LEDCHIP-LED0805,LEDCHIP-LED0805,CHIP-LED0805,"LED1, LED2",LED,https://www.aliexpress.com/item/0805-smd-led-bright-red-thioindigo-red-light-emitting-diode/1206476683.html
+1,,LM1117,SOT223,IC1,5.0V Regulator,https://www.aliexpress.com/item/10pcs-AMS1117-5-0-AMS1117-5-AMS1117-1117-5-0-SOT223-800mA-LOW-DROPOUT-VOLTAGE-REGULATOR/32831461170.html
+1,,LOLINV3,LOLINV3,IC2,,https://www.aliexpress.com/item/New-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-with-pcb-Antenna/32656775273.html
+2,,M025MM,SCREWTERMINAL-5MM-2,"J8, J9","Standard 2-pin 0.1 header. Use with""",https://www.taydaelectronics.com/dg301-screw-terminal-block-2-positions-5mm.html
+6,,M03-SCREW-5MM,SCREWTERMINAL-5MM-3,"J2, J3, J4, J5, J6, J7",Header 3,https://www.taydaelectronics.com/dg301-screw-terminal-block-3-positions-5mm.html
+1,,PINHD-1X3/90,1X03/90,DHT22,PIN HEADER,https://www.taydaelectronics.com/connectors-sockets/pin-headers/40-pin-2-54-mm-angle-single-row-pin-header.html
+2,10u,CPOL-EUA/3216-18W,A/3216-18W,"C1, C2","POLARIZED CAPACITOR, European symbol",https://www.aliexpress.com/item/20pcs-A-3216-10uF-16V-106-106C-SMD-tantalum-capacitor/32800884275.html
+2,150R,R-EU_R0805,R0805,"R1, R2","RESISTOR, European symbol",https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/50-x-smd-chip-resistors-150-ohm-1-8w-1-0805.html
+2,BC850SMD,BC850SMD,SOT23-BEC,"Q1, Q2",NPN Transistor,https://www.taydaelectronics.com/ktc8050-transistor-npn-30v-0-8a-sot-23-3-ktc8050s-d-rtk.html
+1,POWER_JACKPTH,POWER_JACKPTH,POWER_JACK_PTH,J1,Power Jack,https://www.taydaelectronics.com/dc-power-jack-2-1mm-barrel-type-pcb-mount.html
+1,V T E G,PINHD-1X4,1X04,HC-SR04,PIN HEADER,https://www.taydaelectronics.com/40-pin-2-54-mm-single-row-pin-header-strip.html
+2,ZF112,ZF112,ZF112,"K1, K2",RELAY,https://www.taydaelectronics.com/mini-relay-spdt-5-pins-5vdc-10a-120v-contact.html
+1,,Case,Case,Case,Plastic Project Case,https://www.taydaelectronics.com/hardware/enclosures/plastic-project-boxes/project-plastic-box-03.html
+4,M3x10 SCREW,M3x10 SCREW,M3x10 SCREW,M3x10 SCREW,M3x10 Plastic Screws,
+,,,,,,
+1,,HC-SR04,HC-SR04,HC-SR04,(Optional) Proximity Sensor,https://www.aliexpress.com/item/1pcs-HC-SR04-to-world-Ultrasonic-Wave-Detector-Ranging-Module-for-arduino-Distance-Sensor/32786781050.html
+1,,DHT22,DHT22,DHT22,(Optional) Temperature/Humidity Sensor,https://www.aliexpress.com/item/DHT22-single-bus-digital-temperature-and-humidity-sensor-module-2302-electronic-building-blocks/32753887461.html
+1,LM339N,LM339N,DIL14,IC3,(Optional) Low Power Low Offset Voltage Quad Comparators,https://www.taydaelectronics.com/lm339n-lm339-low-power-quad-voltage-comparators-ic.html
+2,,R-EU_0204/7,0204/7,"R3, R4",(Optional) Voltage Divider (www.ohmslawcalculator.com/voltage-divider-calculator),https://www.instructables.com/id/Alarm-PIR-Movement-to-Home-Automation/
