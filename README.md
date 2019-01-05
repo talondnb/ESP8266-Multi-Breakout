@@ -19,7 +19,7 @@ Pin out as follows:
 | Pin  | Function | Comment
 | ------------- | ------------- | ------------- |
 | D0  | N/A  | Not used |
-| D1  | DHT22 or Z1 Input  | Only single input allowed |
+| D1  | Z1 or DHT22 input  | Only single input allowed |
 | D2  | Z2 or other input  | Input/output |
 | D3  | Z3 or other input  | Input/output |
 | D4  | Z4 or other input  | Input/output |
