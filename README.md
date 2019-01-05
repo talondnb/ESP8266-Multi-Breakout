@@ -29,3 +29,5 @@ Pin out as follows:
 See here for [pin reference](https://github.com/thehookup/Wireless_MQTT_Doorbell/blob/master/GPIO_Limitations_ESP8266_NodeMCU.jpg). 
 
 Integration to Home Assistant can be done using the [esphomeyaml library](https://esphomelib.com/esphomeyaml/index.html).
+
+This design was created using Eagle 7.3.
