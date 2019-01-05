@@ -16,17 +16,17 @@ Aside from the above, a [LM339N](http://www.ti.com/lit/ds/symlink/lm339.pdf) is 
 
 Pin out as follows:
 
-| Pin  | Function |
-| ------------- | ------------- |
-| D0  | N/A  |
-| D1  | DHT22  |
-| D2  | Free  |
-| D3  | Free  |
-| D4  | Free  |
-| D5  | HC-SR04 (Trig)  |
-| D6  | HC-SR04 (Echo)  |
-| D7  | Relay #1  |
-| D8  | Relay #2  |
+| Pin  | Function | Comment
+| ------------- | ------------- | ------------- |
+| D0  | N/A  | Not used |
+| D1  | DHT22 or Z1 Input  | Only single input allowed |
+| D2  | Z2 or other input  | Input/output |
+| D3  | Z3 or other input  | Input/output |
+| D4  | Z4 or other input  | Input/output |
+| D5  | HC-SR04 (Trig)  | Ultrasonic distance sensor (if used) |
+| D6  | HC-SR04 (Echo)  | Ultrasonic distance sensor (if used) |
+| D7  | Relay #1  | Relay #1 trigger |
+| D8  | Relay #2  | Relay #2 trigger |
 
 See here for [pin reference](https://github.com/thehookup/Wireless_MQTT_Doorbell/blob/master/GPIO_Limitations_ESP8266_NodeMCU.jpg). 
 
