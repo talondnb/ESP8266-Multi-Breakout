@@ -10,7 +10,7 @@ The board also accommodates the following sensors:
 
 [**HC-SR04**](https://www.aliexpress.com/item/1pcs-HC-SR04-to-world-Ultrasonic-Wave-Detector-Ranging-Module-for-arduino-Distance-Sensor/32786781050.html) - Ultrasonic distance sensor
 
-Aside from the above, a [LM339N](http://www.ti.com/lit/ds/symlink/lm339.pdf) is also available onboard and powered by the +12VDC input. This can be used to integrated to your existing alarm system to make use of the PIRs as binary sensors for motion detection. See [here](https://www.instructables.com/id/Alarm-PIR-Movement-to-Home-Automation/) for more information.
+Aside from the above, a [LM339N](http://www.ti.com/lit/ds/symlink/lm339.pdf) is also available onboard and powered by the +12VDC input. This can be used to integrate your existing alarm system, to make use of the PIRs as binary sensors for motion detection without affecting the functionality of the original system. See [here](https://www.instructables.com/id/Alarm-PIR-Movement-to-Home-Automation/) for more information.
 
 Pin out as follows:
 
