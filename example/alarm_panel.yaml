@@ -1,0 +1,60 @@
+esphomeyaml:
+  name: alarm_panel
+  platform: ESP8266
+  board: nodemcuv2
+
+wifi:
+  ssid: 'xxxx'
+  password: 'xxxx'
+  manual_ip:
+    static_ip: 192.168.0.xxx
+    gateway: 192.168.0.xxx
+    subnet: 255.255.255.0
+
+mqtt:
+  broker: '192.168.0.xxx'
+  username: 'xxxx'
+  password: 'xxxx'
+
+logger:
+
+ota:
+  password: 'xxxx'
+
+switch:
+  - platform: gpio
+    name: "Disarm alarm"
+    pin: D7
+  - platform: gpio
+    name: "Arm alarm"
+    pin: D8
+
+binary_sensor:
+  - platform: gpio
+    device_class: motion
+    pin:
+      number: D1
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Entry Motion"
+  - platform: gpio
+    device_class: motion
+    pin:
+      number: D2
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Living Room Motion"
+  - platform: gpio
+    device_class: motion
+    pin:
+      number: D3
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Master Bedroom Motion"
+  - platform: gpio
+    device_class: door
+    pin:
+      number: D4
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Garage Side Entry Door"
