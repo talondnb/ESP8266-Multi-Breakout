@@ -1,0 +1,56 @@
+esphomeyaml:
+  name: garage_opener
+  platform: ESP8266
+  board: nodemcuv2
+
+wifi:
+  ssid: 'xxxx'
+  password: 'xxxx'
+  manual_ip:
+    static_ip: 192.168.0.xxx
+    gateway: 192.168.0.xxx
+    subnet: 255.255.255.0
+
+mqtt:
+  broker: '192.168.0.xxx'
+  username: 'xxxx'
+  password: 'xxxx'
+
+logger:
+
+ota:
+  password: 'xxxx'
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: D2
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Garage Door Closed"
+    filters:
+      - delayed_on: 10ms
+      - delayed_off: 10ms
+    device_class: garage_door
+
+switch:
+  - platform: gpio
+    pin: D7
+    restore_mode: RESTORE_DEFAULT_OFF
+    id: relay
+  - platform: template
+    name: "Garage Door Trigger"
+    optimistic: yes
+    turn_on_action:
+    - switch.turn_on: relay
+    - delay: 100ms
+    - switch.turn_off: relay
+
+sensor:
+  - platform: ultrasonic
+    filters:
+      - filter_nan:
+    trigger_pin: D5
+    echo_pin: D6
+    update_interval: 30s
+    name: "Ultrasonic Car Sensor"
